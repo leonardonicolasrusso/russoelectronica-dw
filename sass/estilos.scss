@@ -1,0 +1,33 @@
+// Hojas de estilos
+@import "header";
+@import "index";
+@import "controles";
+@import "servicio";
+@import "mayoristas";
+@import "contacto";
+@import "footer";
+@import "fonts";
+
+
+// GENERAL
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+// COLORES
+.c-principal{
+    color: #294470;
+}
+.c-secundario{
+    color: #31bcfe;
+}
+.c-gris{
+    color: #cfcfcf;
+}
+.c-blanco{
+    color: white;
+}

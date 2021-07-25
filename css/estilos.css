@@ -1,0 +1,147 @@
+.header__ctn {
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__ctn .header__ctn--titulo1 {
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: 500;
+  color: #294470;
+}
+
+.header__ctn .header__ctn--titulo2 {
+  color: #31bcfe;
+}
+
+nav {
+  background-color: #294470;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.indexSection1 {
+  background-image: url("../img/family.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.indexSection2 {
+  height: 300px;
+}
+
+.indexSection2 a {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.indexSection2 img {
+  width: 50px;
+}
+
+.indexSection3 {
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../img/bkNosotros.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.indexSection3 .indexSection3__texto {
+  color: white;
+  font-size: 2rem;
+  text-shadow: 0px 0px 17px white;
+}
+
+.indexSection4 {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.indexSection4 img {
+  width: 120px;
+}
+
+.indexSection5 {
+  height: 300px;
+  background-image: url("../img/bk-redes.jpg");
+  background-size: cover;
+}
+
+.indexSection5 p {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.indexSection5 img {
+  width: 100px;
+}
+
+.footer {
+  height: 150px;
+  background-color: #294470;
+  color: white;
+}
+
+.footer .footer__span {
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.c-principal {
+  color: #294470;
+}
+
+.c-secundario {
+  color: #31bcfe;
+}
+
+.c-gris {
+  color: #cfcfcf;
+}
+
+.c-blanco {
+  color: white;
+}
+/*# sourceMappingURL=estilos.css.map */
