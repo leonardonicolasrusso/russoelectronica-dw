@@ -1,0 +1,65 @@
+.serviciosSection1__ctn1{
+    background-image: url("../img/fondoservicios.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .serviciosSection1__ctn1--titulo{
+        color: white;
+        font-size: 5rem;
+        font-weight: 600;
+        font-style: italic;
+
+    }
+}
+.serviciosSection2{
+    .serviciosSection2__ctn2{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        color: #294470;
+    }
+    .serviciosSection2__ctn1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 300px;
+        .serviciosSection2__ctn1Hijos{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 100px;
+            }
+            p{
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.serviciosSection3{
+    height: 400px;
+    background-color: #294470;
+    padding: 15px;
+    .serviciosSection3__ctn1{
+        img{
+            width: 400px;
+            height: 340px;
+            box-shadow: 0px 0px 5px 1px black;
+        }
+    }
+    .serviciosSection3__ctn2{
+        display: flex;
+        align-items: center;
+        p{
+            color: white;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 3px rgba(150, 150, 150, 1);
+        }
+    }
+}

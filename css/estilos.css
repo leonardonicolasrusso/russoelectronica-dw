@@ -171,6 +171,105 @@ nav {
           box-shadow: 0px 0px 5px 1px grey;
 }
 
+.serviciosSection1__ctn1 {
+  background-image: url("../img/fondoservicios.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.serviciosSection1__ctn1 .serviciosSection1__ctn1--titulo {
+  color: white;
+  font-size: 5rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.serviciosSection2 .serviciosSection2__ctn2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+  color: #294470;
+}
+
+.serviciosSection2 .serviciosSection2__ctn1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 300px;
+}
+
+.serviciosSection2 .serviciosSection2__ctn1 .serviciosSection2__ctn1Hijos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.serviciosSection2 .serviciosSection2__ctn1 .serviciosSection2__ctn1Hijos img {
+  width: 100px;
+}
+
+.serviciosSection2 .serviciosSection2__ctn1 .serviciosSection2__ctn1Hijos p {
+  font-weight: 500;
+}
+
+.serviciosSection3 {
+  height: 400px;
+  background-color: #294470;
+  padding: 15px;
+}
+
+.serviciosSection3 .serviciosSection3__ctn1 img {
+  width: 400px;
+  height: 340px;
+  -webkit-box-shadow: 0px 0px 5px 1px black;
+          box-shadow: 0px 0px 5px 1px black;
+}
+
+.serviciosSection3 .serviciosSection3__ctn2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.serviciosSection3 .serviciosSection3__ctn2 p {
+  color: white;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 3px #969696;
+}
+
 .footer {
   background-color: #294470;
   color: white;
