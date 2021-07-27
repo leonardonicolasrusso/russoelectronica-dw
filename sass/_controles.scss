@@ -1,0 +1,50 @@
+.controlesSection1{
+    padding: 10px;
+    background-color: #31bcfe;
+    .controlesSection1__titulo1{
+        color: white;
+        font-size: 4rem;
+        font-weight: 600;
+        font-style: italic;
+    }
+    .controlesSection1__texto{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .controlesSection1__img{
+        width: 300px;
+        box-shadow: 0px 0px 5px 1px black;
+    }
+}
+
+.controlesSection2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .controlesSection2__ctn1--titulo{
+        font-size: 3rem;
+        color: #294470;
+    }
+    .controlesSection2__ctn2--texto{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .controlesSection2__ctn2--img{
+        box-shadow: 0px 0px 5px 1px black;
+    }
+}
+
+.controlesSection3{
+    padding: 50px;
+    background-image: url("../img/fondovendidos.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .controlesSection3__titulo{
+        color: #294470;
+    }
+    .controlesSection3__img{
+        margin: 5px;
+        width: 200px;
+        box-shadow: 0px 0px 5px 1px grey;
+    }
+}
