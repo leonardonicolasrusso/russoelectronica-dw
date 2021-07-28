@@ -304,6 +304,14 @@ nav {
   padding: 30px;
 }
 
+.contactoSection1 {
+  padding: 15px;
+}
+
+.contactoSection1 h3 {
+  color: #294470;
+}
+
 .footer {
   background-color: #294470;
   color: white;
