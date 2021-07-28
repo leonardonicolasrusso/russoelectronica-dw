@@ -267,7 +267,41 @@ nav {
 .serviciosSection3 .serviciosSection3__ctn2 p {
   color: white;
   font-size: 2.5rem;
+  font-weight: 300;
   text-shadow: 2px 2px 3px #969696;
+}
+
+.mayoritasSection1 .mayoritasSection1__ctn1 {
+  padding: 10px;
+  background-image: url("../img/fondomayoristas.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mayoritasSection1 .mayoritasSection1__ctn1 .mayoritasSection1__ctn1--titulo {
+  color: #294470;
+  font-size: 5rem;
+  font-style: italic;
+}
+
+.mayoritasSection1 .mayoritasSection1__ctn2
+.mayoritasSection1__ctn2--texto {
+  color: grey;
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 30px;
+}
+
+.mayoritasSection1 .mayoritasSection1__ctn3 {
+  padding: 30px;
 }
 
 .footer {

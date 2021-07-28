@@ -1,0 +1,28 @@
+.mayoritasSection1{
+    
+    .mayoritasSection1__ctn1{
+        padding: 10px;
+        background-image: url("../img/fondomayoristas.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        .mayoritasSection1__ctn1--titulo{
+            color: #294470;
+            font-size: 5rem;
+            font-style: italic;
+        }
+    }
+    .mayoritasSection1__ctn2
+        .mayoritasSection1__ctn2--texto{
+            color:grey;
+            font-size: 2rem;
+            font-weight: 300;
+            padding: 30px;
+        }
+    .mayoritasSection1__ctn3{
+        padding: 30px;
+    }
+}
