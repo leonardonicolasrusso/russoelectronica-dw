@@ -1,8 +1,12 @@
+// HEADER
 .header__ctn{
     height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+        a{
+            text-decoration: none;
+        }
         .header__ctn--titulo1{
             font-size: 4rem;
             font-style: italic;
@@ -15,6 +19,7 @@
 
 }
 
+// MENU
 nav{
     background-color: #294470;
 }

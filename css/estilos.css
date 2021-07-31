@@ -11,6 +11,10 @@
           align-items: center;
 }
 
+.header__ctn a {
+  text-decoration: none;
+}
+
 .header__ctn .header__ctn--titulo1 {
   font-size: 4rem;
   font-style: italic;
@@ -79,15 +83,6 @@ nav {
 
 .indexSection4 {
   height: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .indexSection4 img {
@@ -172,7 +167,6 @@ nav {
 }
 
 .serviciosSection1__ctn1 {
-  background-image: url("../img/fondoservicios.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -310,6 +304,21 @@ nav {
 
 .contactoSection1 h3 {
   color: #294470;
+}
+
+.contactoSection2__ctn1 {
+  height: 300px;
+  background-image: url("../img/bk-redes.jpg");
+  background-size: cover;
+}
+
+.contactoSection2__ctn1 p {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.contactoSection2__ctn1 .contactoSection2__ctn1--redes img {
+  width: 100px;
 }
 
 .footer {
