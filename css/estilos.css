@@ -46,12 +46,12 @@ nav {
   height: 600px;
 }
 
-.indexSection2 {
-  height: 300px;
+.indexSection2 h2 {
+  font-size: 4rem;
 }
 
 .indexSection2 a {
-  font-size: 2rem;
+  font-size: 3rem;
   text-decoration: none;
 }
 
@@ -60,16 +60,6 @@ nav {
 }
 
 .indexSection3 {
-  height: 400px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   background-image: url("../img/bkNosotros.svg");
   background-position: center;
   background-size: cover;
@@ -81,16 +71,11 @@ nav {
   text-shadow: 0px 0px 17px white;
 }
 
-.indexSection4 {
-  height: 300px;
-}
-
 .indexSection4 img {
   width: 120px;
 }
 
 .indexSection5 {
-  height: 300px;
   background-image: url("../img/bk-redes.svg");
   background-size: cover;
 }
@@ -324,12 +309,16 @@ nav {
 
 .footer {
   background-color: #294470;
-  color: white;
 }
 
-.footer .footer__span {
-  font-size: 1.2rem;
-  padding-bottom: 20px;
+.footer h4 {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer p {
+  color: white;
+  font-size: 1rem;
 }
 
 * {

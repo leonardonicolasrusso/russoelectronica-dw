@@ -8,9 +8,11 @@
 }
 // SECTION 2
 .indexSection2{
-    height: 300px;
+    h2{
+        font-size: 4rem;
+    }
     a{
-        font-size: 2rem;
+        font-size: 3rem;
         text-decoration: none;    
     }
     img{
@@ -20,10 +22,6 @@
 
 // SECTION 3
 .indexSection3{
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-image: url("../img/bkNosotros.svg");
     background-position: center;
     background-size: cover;
@@ -36,10 +34,6 @@
 
 // SECTION 4
 .indexSection4{
-    height: 300px;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
     img{
         width: 120px;
     }
@@ -47,7 +41,6 @@
 
 // SECTION 5 
 .indexSection5{
-    height: 300px;
     background-image: url("../img/bk-redes.svg");
     background-size: cover;
     p{
