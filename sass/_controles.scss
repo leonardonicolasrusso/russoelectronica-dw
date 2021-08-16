@@ -1,53 +1,49 @@
-// SECTION 1
-.controlesSection1{
-    padding: 10px;
-    background-color: #31bcfe;
-    .controlesSection1__titulo1{
-        color: white;
-        font-size: 4rem;
-        font-weight: 600;
-        font-style: italic;
-    }
-    .controlesSection1__texto{
-        font-size: 1.5rem;
-        font-weight: 500;
-    }
-    .controlesSection1__img{
-        width: 300px;
-        box-shadow: 0px 0px 5px 1px black;
-    }
-}
-
-// SECTION 2
-.controlesSection2{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    .controlesSection2__ctn1--titulo{
-        font-size: 3rem;
-        color: #294470;
-    }
-    .controlesSection2__ctn2--texto{
-        font-size: 1.5rem;
-        font-weight: 500;
-    }
-    .controlesSection2__ctn2--img{
-        box-shadow: 0px 0px 5px 1px black;
-    }
-}
-
-// SECTION 3
-.controlesSection3{
-    padding: 50px;
-    background-image: url("../img/fondovendidos.svg");
+.crSection1{
+    background-image: url("../img/fondoCR.jpg");
     background-position: center center;
-    background-size: cover;
     background-repeat: no-repeat;
-    .controlesSection3__titulo{
-        color: #294470;
+    background-size: cover;
+    height: 450px;
+       h2{
+           color: white;
+           font-size: 5rem;
+           font-weight: 600;
+           font-style: italic;
+           background-color: #0009;
+           padding: 10px;
+       }
+}
+
+.crSection2{
+    p{
+        color:#294470;
+        font-size: 2rem
+
     }
-    .controlesSection3__img{
-        margin: 5px;
+    img{
+        width: 300px;
+    }
+}
+
+.crSection3{
+    background-color: #31bcfe;
+    padding: 20px;
+        h3{
+            color:#294470;
+            font-size: 3rem;
+            font-style: italic;
+        }
+        p{
+            color: #294470;
+            font-size: 1.5rem;
+        }
+        img{
+            width: 350px;
+        }
+}
+
+.crSection4{
+    img{
         width: 200px;
-        box-shadow: 0px 0px 5px 1px grey;
     }
 }
