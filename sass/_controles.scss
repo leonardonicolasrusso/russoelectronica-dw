@@ -11,14 +11,27 @@
            font-style: italic;
            background-color: #0009;
            padding: 10px;
+                @media (max-width: 576px){
+                    font-size: 2rem;
+        }           
        }
 }
 
 .crSection2{
+    h3{
+        color: #294470;
+        font-size: 3rem;
+        text-decoration: underline;
+            @media (max-width:576px){
+                font-size: 2rem;
+            }
+    }
     p{
         color:#294470;
-        font-size: 2rem
-
+        font-size: 2rem;
+            @media (max-width: 576px){
+                font-size: 1.5rem;
+            }
     }
     img{
         width: 300px;
@@ -32,17 +45,28 @@
             color:#294470;
             font-size: 3rem;
             font-style: italic;
+                @media (max-width:576px){
+                    font-size: 2rem;
+                }
         }
         p{
             color: #294470;
             font-size: 1.5rem;
+            @media (max-width:576px){
+                font-size: 1rem;
+            }
         }
         img{
             width: 350px;
+            @media (max-width:576px){
+                width: 250px;
+            }
         }
 }
 
 .crSection4{
+    color: #294470;
+    padding: 10px;
     img{
         width: 200px;
     }

@@ -46,13 +46,29 @@ nav {
   height: 600px;
 }
 
+.indexSection2 {
+  padding: 15px;
+}
+
 .indexSection2 h2 {
   font-size: 4rem;
+}
+
+@media (max-width: 576px) {
+  .indexSection2 h2 {
+    font-size: 2rem;
+  }
 }
 
 .indexSection2 a {
   font-size: 3rem;
   text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .indexSection2 a {
+    font-size: 2rem;
+  }
 }
 
 .indexSection2 img {
@@ -71,8 +87,20 @@ nav {
   text-shadow: 0px 0px 17px white;
 }
 
+@media (max-width: 576px) {
+  .indexSection3 .indexSection3__texto {
+    font-size: 1rem;
+  }
+}
+
 .indexSection4 img {
   width: 120px;
+}
+
+@media (max-width: 576px) {
+  .indexSection4 img {
+    width: 80px;
+  }
 }
 
 .indexSection5 {
@@ -87,6 +115,12 @@ nav {
 
 .indexSection5 img {
   width: 100px;
+}
+
+@media (max-width: 576px) {
+  .indexSection5 img {
+    width: 80px;
+  }
 }
 
 .crSection1 {
@@ -106,9 +140,33 @@ nav {
   padding: 10px;
 }
 
+@media (max-width: 576px) {
+  .crSection1 h2 {
+    font-size: 2rem;
+  }
+}
+
+.crSection2 h3 {
+  color: #294470;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  .crSection2 h3 {
+    font-size: 2rem;
+  }
+}
+
 .crSection2 p {
   color: #294470;
   font-size: 2rem;
+}
+
+@media (max-width: 576px) {
+  .crSection2 p {
+    font-size: 1.5rem;
+  }
 }
 
 .crSection2 img {
@@ -126,13 +184,36 @@ nav {
   font-style: italic;
 }
 
+@media (max-width: 576px) {
+  .crSection3 h3 {
+    font-size: 2rem;
+  }
+}
+
 .crSection3 p {
   color: #294470;
   font-size: 1.5rem;
 }
 
+@media (max-width: 576px) {
+  .crSection3 p {
+    font-size: 1rem;
+  }
+}
+
 .crSection3 img {
   width: 350px;
+}
+
+@media (max-width: 576px) {
+  .crSection3 img {
+    width: 250px;
+  }
+}
+
+.crSection4 {
+  color: #294470;
+  padding: 10px;
 }
 
 .crSection4 img {
@@ -163,6 +244,12 @@ nav {
   font-style: italic;
 }
 
+@media (max-width: 576px) {
+  .serviciosSection1__ctn1 .serviciosSection1__ctn1--titulo {
+    font-size: 3rem;
+  }
+}
+
 .serviciosSection2 .serviciosSection2__ctn2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -172,6 +259,12 @@ nav {
           justify-content: center;
   padding-top: 20px;
   color: #294470;
+}
+
+@media (max-width: 576px) {
+  .serviciosSection2 .serviciosSection2__ctn2 {
+    font-size: 1.5rem;
+  }
 }
 
 .serviciosSection2 .serviciosSection2__ctn1 {
@@ -206,6 +299,12 @@ nav {
   width: 100px;
 }
 
+@media (max-width: 576px) {
+  .serviciosSection2 .serviciosSection2__ctn1 .serviciosSection2__ctn1Hijos img {
+    width: 60px;
+  }
+}
+
 .serviciosSection2 .serviciosSection2__ctn1 .serviciosSection2__ctn1Hijos p {
   font-weight: 500;
 }
@@ -221,11 +320,24 @@ nav {
           box-shadow: 0px 0px 5px 1px black;
 }
 
+@media (max-width: 576px) {
+  .serviciosSection3 .serviciosSection3__ctn1 img {
+    width: 300px;
+  }
+}
+
 .serviciosSection3 .serviciosSection3__ctn2 p {
   color: white;
   font-size: 2.5rem;
   font-weight: 300;
   text-shadow: 2px 2px 3px #969696;
+}
+
+@media (max-width: 576px) {
+  .serviciosSection3 .serviciosSection3__ctn2 p {
+    padding-top: 10px;
+    font-size: 1.5rem;
+  }
 }
 
 .mayoritasSection1 .mayoritasSection1__ctn1 {
@@ -249,12 +361,32 @@ nav {
   font-style: italic;
 }
 
+@media (max-width: 576px) {
+  .mayoritasSection1 .mayoritasSection1__ctn1 .mayoritasSection1__ctn1--titulo {
+    font-size: 3rem;
+  }
+}
+
 .mayoritasSection1 .mayoritasSection1__ctn2
 .mayoritasSection1__ctn2--texto {
   color: grey;
   font-size: 2rem;
   font-weight: 300;
   padding: 30px;
+}
+
+@media (max-width: 576px) {
+  .mayoritasSection1 .mayoritasSection1__ctn2
+.mayoritasSection1__ctn2--texto {
+    font-size: 1.5rem;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 576px) {
+  .mayoritasSection1 img {
+    width: 300px;
+  }
 }
 
 .mayoritasSection1 .mayoritasSection1__ctn3 {
@@ -267,6 +399,13 @@ nav {
 
 .contactoSection1 h3 {
   color: #294470;
+}
+
+@media (max-width: 576px) {
+  .contactoSection1 iframe {
+    height: 300px;
+    width: 300px;
+  }
 }
 
 .contactoSection2__ctn1 {
@@ -282,6 +421,12 @@ nav {
 
 .contactoSection2__ctn1 .contactoSection2__ctn1--redes img {
   width: 100px;
+}
+
+@media (max-width: 576px) {
+  .contactoSection1__ctn2 {
+    padding-top: 20px;
+  }
 }
 
 .footer {
@@ -321,5 +466,25 @@ body {
 
 .c-blanco {
   color: white;
+}
+
+.index-img {
+  background-image: url("/images/index.svg");
+}
+
+.controles-img {
+  background-image: url("/images/controles.svg");
+}
+
+.servicios-img {
+  background-image: url("/images/servicios.svg");
+}
+
+.mayorista-img {
+  background-image: url("/images/mayorista.svg");
+}
+
+.contacto-img {
+  background-image: url("/images/contacto.svg");
 }
 /*# sourceMappingURL=estilos.css.map */

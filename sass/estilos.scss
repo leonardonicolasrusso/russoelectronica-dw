@@ -31,3 +31,11 @@ body{
 .c-blanco{
     color: white;
 }
+
+// OPERACIONES - Each para cada encabezado de seccion
+@each $encabezado in index, controles, servicios, mayorista, contacto{
+    .#{$encabezado}-img{
+        background-image: 
+        url("/images/#{$encabezado}.svg");
+    }
+}

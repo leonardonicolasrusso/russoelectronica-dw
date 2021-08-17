@@ -13,6 +13,9 @@
             color: #294470;
             font-size: 5rem;
             font-style: italic;
+            @media (max-width: 576px){
+                font-size: 3rem;
+            }
         }
     }
     .mayoritasSection1__ctn2
@@ -21,6 +24,15 @@
             font-size: 2rem;
             font-weight: 300;
             padding: 30px;
+            @media (max-width: 576px){
+                font-size: 1.5rem;
+                text-align: justify;
+            }
+        }
+        img{
+            @media (max-width: 576px){
+                width: 300px;
+            }
         }
     .mayoritasSection1__ctn3{
         padding: 30px;

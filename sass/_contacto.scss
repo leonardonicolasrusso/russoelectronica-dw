@@ -4,6 +4,12 @@
     h3{
         color: #294470;
     }
+    iframe{
+        @media (max-width: 576px){
+            height: 300px;
+            width: 300px;
+        }
+    }
 }
 // SECTION 2 
 .contactoSection2__ctn1{
@@ -18,5 +24,10 @@
         img{
             width: 100px;
         }
+    }
+}
+.contactoSection1__ctn2{
+    @media (max-width: 576px){
+        padding-top: 20px;
     }
 }
